@@ -1,24 +1,24 @@
 package Question_Sheets;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Q6 {
     public static void main(String[] args) {
-        int num1 = 10, num2 = 20;
+        int a, b;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the First Number : ");
-        num1 = sc.nextInt();
+        System.out.print("Enter the First Number : ");
+        a = sc.nextInt();
 
-        System.out.println("Enter the Second Number : ");
-        num2 = sc.nextInt();
+        System.out.print("Enter the Second Number : ");
+        b = sc.nextInt();
 
-        num1 = num1 + num2;
-        num2 = num1 - num2;
-        num1 = num2 - num1;
+        a = a + b;
+        b = a - b;
+        a = a - b;
 
-        System.out.println("num1 = 10 swap to : " + num1);
-        System.out.println("num2 = 20 swap to : " + num2);
+        System.out.println("a is : " + a);
+        System.out.println("b is : " + b);
         sc.close();
     }
 }
