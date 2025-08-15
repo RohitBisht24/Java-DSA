@@ -17,5 +17,6 @@ public class example {
         System.out.print(num[1]);
         System.out.print(num[2]);
         System.out.print(num[3]);
+        sc.close();
     }
 }
