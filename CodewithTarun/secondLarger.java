@@ -1,5 +1,7 @@
 package CodewithTarun;
+
 import java.util.Scanner;
+
 public class secondLarger {
     public static int findlerger(int arr[]) {
         int index = 0;
@@ -35,5 +37,6 @@ public class secondLarger {
 
         int result = findlerger(arr);
         System.out.println(result);
+        sc.close();
     }
 }

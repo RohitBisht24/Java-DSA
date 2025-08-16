@@ -32,5 +32,6 @@ public class smallestnumber {
 
         int result = findlerger(arr);
         System.out.println(result);
+        sc.close();
     }
 }
