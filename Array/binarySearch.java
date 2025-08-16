@@ -1,22 +1,36 @@
+// Binany search  applies only shoted arrays.
 package Array;
 
-import java.util.Scanner;
-
 public class binarySearch {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static int performSearching(int arr[], int key) {
+        int start = arr[0];
+        int end = arr.length - 1;
+        int mid;
 
-        System.out.print("Enter Size of a array : ");
-        int n = sc.nextInt();
+        while (start <= end) {
+            mid = (start + end) / 2;
 
-        int arr[] = new int[n];
-        int sum = 0;
-
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
-            sum += arr[i];
+            if (arr[mid] == key) { // key found
+                return mid;
+            } else if (arr[mid] < key) { // --->
+                start = mid + 1;
+            } else { // <---
+                end = mid - 1;
+            }
         }
-        System.out.println("Total Element Sum is : " + sum);
-        sc.close();
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        int arr[] = { 2, 4, 6, 8, 10, 12, 14, 16 };
+        int key = -91;
+
+        int result = performSearching(arr, key);
+        if (result == -1) {
+            System.out.println(key + " is Invaild key.");
+        } else {
+            System.out.println("index for key is : " + result);
+
+        }
     }
 }
