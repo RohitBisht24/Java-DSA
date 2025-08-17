@@ -1,9 +1,12 @@
+// Find the Second Larger Numbers in Array  :-
+
 package CodewithTarun;
-public class largertnum {
+
+public class largertNumber {
     public static int findlerger(int arr[]) {
         int index = 0;
-        int larger = Integer.MIN_VALUE;  // - infinite kehte hai
-        
+        int larger = Integer.MIN_VALUE; // - infinite kehte hai
+
         for (int i = 0; i < arr.length; i++) {
             if (larger < arr[i]) {
                 larger = arr[i];

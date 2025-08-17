@@ -2,7 +2,7 @@ package CodewithTarun;
 
 import java.util.Scanner;
 
-public class smallestnumber {
+public class smallestNumber {
     public static int findlerger(int arr[]) {
         int index = 0;
         int smallest = Integer.MAX_VALUE; // - infinite kehte hai

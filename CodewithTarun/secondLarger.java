@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class secondLarger {
     public static int findlerger(int arr[]) {
         int index = 0;
-        int larger = Integer.MIN_VALUE; // - infinite kehte hai
-        int smaller = Integer.MIN_VALUE; // + infinite kehte hai
+        int larger = Integer.MIN_VALUE;          // - infinite kehte hai
+        int Second_larger = Integer.MIN_VALUE;   // - infinite kehte hai
 
         for (int i = 0; i < arr.length; i++) {
             if (larger < arr[i]) {
-                smaller = larger;
+                Second_larger = larger;
                 larger = arr[i];
                 index = i;
-            } else if (arr[i] > smaller && arr[i] != larger) {
-                smaller = arr[i];
+            } else if (arr[i] > Second_larger && arr[i] != larger) {
+                Second_larger = arr[i];
             }
         }
         System.out.println("index is : " + index);
-        return smaller;
+        return Second_larger;
     }
 
     public static void main(String[] args) {
