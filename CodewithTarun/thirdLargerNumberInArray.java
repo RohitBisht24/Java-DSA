@@ -12,9 +12,11 @@ public class thirdLargerNumberInArray {
                 SecondLarger = larger;
                 larger = arr[i];
             } else if (arr[i] > SecondLarger && arr[i] != larger) {
-                SecondLarger = arr[i];
-            } else if (SecondLarger > thirdLarger && SecondLarger != thirdLarger) {
                 thirdLarger = SecondLarger;
+                SecondLarger = arr[i];
+
+            } else if (arr[i]>thirdLarger && arr[i] <SecondLarger) {
+                thirdLarger = arr[i];
             }
         }
         return thirdLarger;
