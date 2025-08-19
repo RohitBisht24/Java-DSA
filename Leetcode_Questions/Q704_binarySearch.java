@@ -2,32 +2,23 @@
 
 package Leetcode_Questions;
 
-public class Q704_binarySearch 
-{
-    public int Search(int[] nums, int target) 
-    {
+public class Q704_binarySearch {
+    public int Search(int[] nums, int target) {
         int start = 0;
         int end = nums.length - 1;
         int mid;
 
-        while(start <= end)
-        {
+        while (start <= end) {
             mid = start + (end - start) / 2;
 
-            if ( nums[mid] == target )
-            {
+            if (nums[mid] == target) {
                 return mid;
-            } else if ( nums[mid] < target)
-            {
+            } else if (nums[mid] < target) {
                 start = mid + 1;
-            }else
-            {
+            } else {
                 end = mid - 1;
             }
         }
         return -1;
-    }
-    public static void main(String[] args) {
-        
     }
 }
