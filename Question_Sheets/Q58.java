@@ -8,8 +8,8 @@ public class Q58 {
         int j = 0;
 
         for (int i = arr.length - 1; i >= 0; i--) {
-            temp[j] = arr[i];
-            j++;
+            temp[j++] = arr[i];
+            // j++;
         }
         for (int i = 0; i < arr.length; i++) {
             System.out.print(temp[i] + " ");
