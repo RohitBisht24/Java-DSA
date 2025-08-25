@@ -33,23 +33,3 @@ public class Q59 {
         rightRotationBy1(arr);
     }
 }
-
-/*
- * linear Search
- * Birnay Searchf
- * larger array
- * smaller array
- * second larger array
- * third larger array
- * (revise)
- * 
- * 
- * (Pending)
- * complete prap
- * reverse array (2 methods)
- * pair in array
- * print subarray --> H.W. (maximum and Minimum sum of subarray)
- * maximim subarray sum
- * 
- * 
- */
