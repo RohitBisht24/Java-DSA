@@ -1,4 +1,4 @@
-package Question_Sheets;
+package Leetcode_Questions.Question_Sheets;
 
 import java.util.Scanner;
 
