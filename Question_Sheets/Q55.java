@@ -1,4 +1,4 @@
-package Leetcode_Questions.Question_Sheets;
+package Question_Sheets;
 
 public class Q55 {
     public static int findGreatestNum(int arr[]) {

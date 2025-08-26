@@ -1,4 +1,4 @@
-package Leetcode_Questions.Question_Sheets;
+package Question_Sheets;
 
 public class Q56 {
     public static int findSecondLarger(int arr[]) {

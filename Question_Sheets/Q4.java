@@ -1,4 +1,4 @@
-package Leetcode_Questions.Question_Sheets;
+package Question_Sheets;
 
 public class Q4 {
     public static void main(String[] args) {
