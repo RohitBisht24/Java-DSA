@@ -37,22 +37,23 @@ public class linearSearchMutliCases {
 
         if (n <= 0) {
             System.out.println("Array size must be greater then 0!");
+            sc.close();
             return;
         }
-
+        
         int arr[] = new int[n];
-
+        
         System.out.println("Enter the " + n + " elements :-");
         for (int i = 0; i < arr.length; i++) {
             System.out.print("Enter Element : ");
             arr[i] = sc.nextInt();
         }
-
+        
         System.out.print("Enter the key do you want to search : ");
         int key = sc.nextInt();
-
+        
         int result = linearSearch(arr, key);
-
+        
         if (result == -1) {
             System.out.println(key + " not found in the array.");
         }
