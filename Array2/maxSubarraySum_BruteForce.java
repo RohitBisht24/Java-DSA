@@ -1,7 +1,7 @@
 package Array2;
 
 //Brute force method - 1.
-public class maxSubarraySum {
+public class maxSubarraySum_BruteForce {
     public static void maxiSum(int arr[]) {
         int max = Integer.MIN_VALUE;
         int currSum = 0;
