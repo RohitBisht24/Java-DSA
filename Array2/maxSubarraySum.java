@@ -1,5 +1,6 @@
 package Array2;
 
+//Brute force method - 1.
 public class maxSubarraySum {
     public static void maxiSum(int arr[]) {
         int max = Integer.MIN_VALUE;
@@ -22,7 +23,6 @@ public class maxSubarraySum {
             System.out.println();
         }
         System.out.println("Maximum Sum is : " + max);
-
     }
 
     public static void main(String[] args) {

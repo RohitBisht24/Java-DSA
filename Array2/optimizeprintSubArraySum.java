@@ -1,6 +1,6 @@
-package Array;
+package Array2;
 
-public class optimizeprintSubArray {
+public class optimizeprintSubArraySum {
     public static void optimizeSubArray(int arr[]) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
