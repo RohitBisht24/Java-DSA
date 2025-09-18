@@ -1,6 +1,6 @@
 package Array2;
 
-public class optimizeprintSubArraySum {
+public class printOptimizeprintSubArraySum {
     public static void optimizeSubArray(int arr[]) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
