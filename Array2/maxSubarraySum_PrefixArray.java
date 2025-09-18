@@ -10,7 +10,7 @@ public class maxSubarraySum_PrefixArray {
 
         // Calculate prefix array
         for (int i = 1; i < prefix.length; i++) {
-            prefix[i] = prefix[i - 1] = arr[i];
+            prefix[i] = prefix[i - 1] + arr[i];
         }
 
         System.out.println();
@@ -29,7 +29,7 @@ public class maxSubarraySum_PrefixArray {
             }
             System.out.println();
         }
-        System.out.println("Larger SubArray sum is : " + larger);   
+        System.out.println("Larger SubArray sum is : " + larger);
     }
 
     public static void main(String[] args) {
