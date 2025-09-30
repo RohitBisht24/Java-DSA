@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 public class mathFunctions {
     public static void main(String[] args) {
         // System.out.println(Math.min(2, 5));            // Math.min
