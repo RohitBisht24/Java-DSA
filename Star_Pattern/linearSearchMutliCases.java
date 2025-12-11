@@ -1,3 +1,4 @@
+package Star_Pattern;
 //Write a Java program to perform linear search on an array. The program should find all occurrences of a given key, print their indexes, and display how many times the key appears in the array.
 
 import java.util.*;
