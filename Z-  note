@@ -2,6 +2,8 @@ for defining variables and functions name to use this style case :-
 
                 sumOfDigits
 
-for defining class name to use this style case :-
+for defining class and file name to use this style case :-
 
                 SunOfDigits
+
+            first letter capical for using class and file name in java
