@@ -10,4 +10,5 @@ public class Addition
 
         System.out.println("Sum is :" + sum);
     }
+    return 0;
 } 
