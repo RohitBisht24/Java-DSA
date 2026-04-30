@@ -7,6 +7,7 @@ public class do_while
         
         do{
             System.out.println("Hello World");
+            i++;
         }
         while(i <= 10);
     }    
