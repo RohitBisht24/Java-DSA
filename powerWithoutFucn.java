@@ -4,8 +4,8 @@ import java.util.*;
 
 public class powerWithoutFucn {
     public static void main(String[] args) {
-        int num = 3;
-        int power = 3;
+        int num;
+        int power;
         int total = 1;
         int i = 1;
 
